@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+$primary_backgroundColor: navy;
+@mixin commonThing{
+font-size:90px;
+
+}
+
+p{
+	background-color: $primary_backgroundColor;
+	@include commonThing;
+}
